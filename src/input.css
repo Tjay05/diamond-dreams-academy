@@ -1,2 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --navbar-red: #5c0002;
+}
+
+.container {
+  @apply w-[90%] mx-auto
+}
+
+.nav_link {
+  @apply py-1.5
+}
+
+.links {
+  @apply opacity-65
+}
+
+.active {
+  @apply opacity-100
+}
