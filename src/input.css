@@ -17,6 +17,6 @@
   @apply opacity-65
 }
 
-.active {
+.links.active {
   @apply opacity-100
 }
