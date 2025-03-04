@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center rule py-2">
           <div className="flex items-center gap-1">
             <img src={Logo} className='w-10 md:w-12' alt="Logo" />
-            <p className="text-white md:text-lg font-[Rokkitt]">Diamonddreams Academy</p>
+            <p className="text-white md:text-lg font-[Rokkitt]">Diamonddreams Event</p>
           </div>
           {isMobile && (<img 
             className="max-w-full" 
@@ -54,7 +54,7 @@ const Navbar = () => {
         </div>
         {/* Mobile DropDown Nav */}
         {isMobile && (
-          <ul className={`${toggleNav ? 'opacity-100 translate-y-.5' : 'opacity-0 translate-y-full'} transition-all duration-300 shadow-md ease-in-out absolute top-13 w-full bg-inherit py-2 border-black border-t flex flex-col justify-center text-white items-center font-[Open_Sans]`} >
+          <ul className={`${toggleNav ? 'opacity-100 translate-y-.5' : 'opacity-0 translate-y-full'} transition-all duration-300 shadow-md ease-in-out absolute top-13 w-full bg-inherit py-2 border-black border-t flex flex-col justify-center text-white items-center font-[Open_Sans] z-99`} >
             <li className="nav_link">
               <a className="links" href="/">Home</a>
             </li>
