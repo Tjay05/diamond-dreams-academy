@@ -22,7 +22,7 @@
 }
 
 .input_field {
-  @apply border border-[#5c0002] text-sm text-black p-2 rounded-sm w-full mb-3
+  @apply border border-[#5c0002] text-sm text-black p-2 rounded-sm w-full mb-3 md:w-[49%]
 }
 
 .cta {
