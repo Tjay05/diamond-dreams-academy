@@ -20,3 +20,11 @@
 .links.active {
   @apply opacity-100
 }
+
+.input_field {
+  @apply border border-[#5c0002] text-sm text-black p-2 rounded-sm w-full mb-3
+}
+
+.cta {
+  @apply absolute top-55 z-2 right-[5%] rounded-lg shadow p-6 bg-white
+}
