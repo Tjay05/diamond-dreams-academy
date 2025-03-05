@@ -81,21 +81,6 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="border-2 w-full rounded-md my-5">
-            <img className="my-1 mx-auto rounded-t-md w-[98%] md:w-[99%] " src={apprentice} alt="" />
-            <div className="rule">
-              <h3 className="text-center font-[rokkitt] text-[#5c0002] font-medium text-xl my-2 uppercase">The Foundations of Elegance</h3>
-              <p className="text-center font-[Open_sans] text-black my-2">A 2-week comprehensive course on refining beauty, style and grace.</p>
-            </div>
-            <div className="border-t-gray-200 flex py-4 justify-between border-t-2 w-[80%] mx-auto">
-              <div className="flex gap-2 text-[#5c0002]">
-                <p>2 Modules</p>
-              </div>
-              <div className="">
-                <p>6 Lessons</p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
       {/* Summary */}
@@ -119,6 +104,16 @@ const Home = () => {
         <div className="relative flex flex-col my-4 md:mb-2 font-[rokkitt] items-center">
           <p className="text-5xl font-bold text-center text-white">50+</p>
           <p className="text-xl font-bold text-[#9d5808] text-center md:text-2xl">Reviews</p>
+        </div>
+      </section>
+      {/* CEO */}
+      <section className="rule">
+        <img src='' alt="Emma Collins" />
+        <div className="text-black">
+          <h2 className="font-bold my-3 text-3xl font-[rokkitt]">Meet our mentor, Dr Emma Collins.</h2>
+          <p className="my-4 font-[Open_Sans]">
+            Dr Emma Collins a seasoned event management professional with numerous years of planning and executing high-profile events on the Plateau and environs. With a passion for sharing knowledge and inspiring others, she bring a wealth of expertise and enthusiasm to our academy. Her dedication to mentoring the next generation of event planners is unparalleled and we're thrilled to have her on our team.
+          </p>
         </div>
       </section>
     </div>
