@@ -76,7 +76,7 @@ const Home = () => {
               <div className="flex gap-2 text-[#5c0002]">
                 <p>2 Modules</p>
               </div>
-              <div className="">
+              <div className="flex gap-2 text-[#5c0002]">
                 <p>6 Lessons</p>
               </div>
             </div>
