@@ -116,6 +116,27 @@ const Home = () => {
           </p>
         </div>
       </section>
+      {/* Testimonials */}
+      <section className="rule my-4">
+        <p className="my-2 tracking-widest font-[rokkitt] text-[#5c0002] font-medium text-center md:text-xl">Testimonials</p>
+        <h2 className="font-[rokkitt] text-3xl font-bold text-center md:text-5xl">What Our Students Say</h2>
+        <div className="grid md:grid-cols-3 gap-4">
+          <div className="shadow-lg my-2 text-center rounded-lg p-4">
+            <p className="italic font-[Open_Sans] my-2">
+              I'm forever grateful for the experience I had at Diamonddreams Academy. The event management course was comprehensive, enagaging and perfectly balanced between theory and practicality. The mentorship I recieved from Dr Emma Collins was invaluable and her industry insights helped me navigate the field with confidence.
+            </p>
+            <span className="font-bold text-xl font-[rokkitt]">Toppin Poppins</span>
+            <p className="font-[Open_Sans] text-sm">Du, Plateau</p>
+          </div>
+          <div className="shadow-lg my-2 text-center rounded-lg p-4">
+            <p className="italic font-[Open_Sans] my-2">
+              I'm forever grateful for the experience I had at Diamonddreams Academy. The event management course was comprehensive, enagaging and perfectly balanced between theory and practicality. The mentorship I recieved from Dr Emma Collins was invaluable and her industry insights helped me navigate the field with confidence.
+            </p>
+            <span className="font-bold text-xl font-[rokkitt]">Toppin Poppins</span>
+            <p className="font-[Open_Sans] text-sm">Du, Plateau</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
