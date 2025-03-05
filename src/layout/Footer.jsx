@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="bg-black py-4">
       <div className="rule md:flex items-center md:gap-48">
         <div className="flex flex-col items-center text-white md:w-[30%] md:items-start">
-          <img src={Logo} className='w-40' alt="" />
+          <img src={Logo} className='md:w-40' alt="" />
           <h2 className="font-[rokkitt] text-xl font-bold md:text-3xl">Diamonddreams Events</h2>
           <p className="text-center font-[open_sans] text-sm mb-2 md:text-left md:text-lg">
             From stunning gowns to captivating accessories, our selection offers both purchasing and rental options, ensuring every bride finds her perfect match.
