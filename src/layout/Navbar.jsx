@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center rule py-2">
           <div className="flex items-center gap-1">
             <img src={Logo} className='w-10 md:w-12' alt="Logo" />
-            <p className="text-white md:text-lg font-[Rokkitt]">Diamonddreams Event</p>
+            <p className="text-white md:text-lg lg:text-xl font-[Rokkitt]">Diamonddreams Event</p>
           </div>
           {isMobile && (<img 
             className="max-w-full" 
@@ -36,7 +36,7 @@ const Navbar = () => {
             onClick={handleNavToggle} 
           />)}
           {/* Desktop Nav */}
-          <ul className="hidden text-white items-center justify-between font-[Open_Sans] w-1/2 py-2 md:flex lg:text-lg xl:text-xl">
+          <ul className="hidden text-white items-center justify-between font-[Open_Sans] w-1/2 py-2 md:flex md:text-sm lg:text-lg xl:text-xl">
             <li className="nav_link">
               <NavLink className="links" to="/">Home</NavLink>
             </li>
