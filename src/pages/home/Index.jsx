@@ -3,6 +3,8 @@ import lady from "../../assets/image/lady-laptop.jpeg";
 import apprentice from "../../assets/image/apprenticeship.jpeg";
 import handbag from "../../assets/image/handbag.jpeg";
 import laptop from "../../assets/image/laptop.jpeg";
+import { FaLaptop } from "react-icons/fa";
+import { MdOutlineTopic } from "react-icons/md";
 
 const Home = () => {
   return (
@@ -13,7 +15,7 @@ const Home = () => {
       >
         <div className="absolute inset-0 opacity-70 bg-linear-105 from-black to-white"></div>
         <div className="relative z-1 flex flex-col items-center justify-center rule py-4">
-          <h1 className="uppercase text-white text-center font-extrabold text-4xl font-[Open_Sans] pt-6">Diamonddreams Academy</h1>
+          <h1 className="uppercase text-white text-center font-extrabold text-4xl font-[rokkitt] pt-6">Diamonddreams Academy</h1>
           <button className="rounded uppercase text-center w-full font-bold font-[Open_Sans] text-lg text-[#5c0002] p-2 my-6 bg-white hover:cursor-pointer md:w-1/4">Courses</button>
         </div>
       </header>
@@ -73,10 +75,12 @@ const Home = () => {
               <p className="text-center font-[Open_sans] text-black my-2">A 2-week comprehensive course on refining beauty, style and grace.</p>
             </div>
             <div className="border-t-gray-200 flex py-4 justify-between border-t-2 w-[80%] mx-auto">
-              <div className="flex gap-2 text-[#5c0002]">
+              <div className="flex items-center gap-2 text-[#5c0002]">
+                <MdOutlineTopic size={18}/>
                 <p>2 Modules</p>
               </div>
-              <div className="flex gap-2 text-[#5c0002]">
+              <div className="flex items-center gap-2 text-[#5c0002]">
+                <FaLaptop size={18}/>
                 <p>6 Lessons</p>
               </div>
             </div>
