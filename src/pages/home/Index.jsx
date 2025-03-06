@@ -112,7 +112,7 @@ const Home = () => {
         </div>
       </section>
       {/* CEO */}
-      <section className="rule my-8 md:flex justify-between">
+      <section className="rule my-8 md:flex justify-between flex-row-reverse">
         <img className=" rounded-2xl md:w-[30%]" src={tiger} alt="Emma Collins" />
         <div className="text-black md:w-[65%]">
           <h2 className="font-bold my-3 text-3xl font-[rokkitt] md:text-4xl">Meet our mentor, Dr Emma Collins.</h2>
