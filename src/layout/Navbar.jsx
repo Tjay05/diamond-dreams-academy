@@ -58,19 +58,19 @@ const Navbar = () => {
         {isMobile && (
           <ul className={`${toggleNav ? 'opacity-100 translate-y-.5' : 'opacity-0 translate-y-full'} transition-all duration-300 shadow-md ease-in-out absolute top-13 w-full bg-inherit py-2 border-black border-t flex flex-col justify-center text-white items-center font-[Open_Sans] ${toggleNav ? 'z-99' : ''}`} >
             <li className="nav_link">
-              <NavLink className="links" to="/">Home</NavLink>
+              <NavLink onClick={handleNavToggle} className="links" to="/">Home</NavLink>
             </li>
             <li className="nav_link">
-              <NavLink className="links" to="/a">About me</NavLink>
+              <NavLink onClick={handleNavToggle} className="links" to="/a">About me</NavLink>
             </li>
             <li className="nav_link">
-              <NavLink className="links" to="Courses">Courses</NavLink>
+              <NavLink onClick={handleNavToggle} className="links" to="Courses">Courses</NavLink>
             </li>
             <li className="nav_link">
-              <NavLink className="links" to="Contact">Contact</NavLink>
+              <NavLink onClick={handleNavToggle} className="links" to="Contact">Contact</NavLink>
             </li>
             <li className="nav_link">
-              <NavLink className="links" to="/g">Student Portal</NavLink>
+              <NavLink onClick={handleNavToggle} className="links" to="/g">Student Portal</NavLink>
             </li>
           </ul>
         )}
