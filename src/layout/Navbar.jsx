@@ -50,7 +50,7 @@ const Navbar = () => {
               <NavLink className="links" to="Contact">Contact</NavLink>
             </li>
             <li className="nav_link">
-              <NavLink className="links" to="/g">Student Portal</NavLink>
+              <NavLink className="links" to="Portal">Student Portal</NavLink>
             </li>
           </ul>
         </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
               <NavLink onClick={handleNavToggle} className="links" to="Contact">Contact</NavLink>
             </li>
             <li className="nav_link">
-              <NavLink onClick={handleNavToggle} className="links" to="/g">Student Portal</NavLink>
+              <NavLink onClick={handleNavToggle} className="links" to="Portal">Student Portal</NavLink>
             </li>
           </ul>
         )}
