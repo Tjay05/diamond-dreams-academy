@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import Logo from "../assets/icon/dark-logo.svg";
 import InstagramLogo from "../assets/icon/instagram.svg";
 import FacebookLogo from "../assets/icon/facebook.svg";
@@ -17,11 +19,11 @@ const Footer = () => {
         <div className="font-[rokkitt] text-center text-white md:text-left md:border-l-2 md:border-l-gray-700 md:pl-4">
           <ul>
             <li className="font-bold my-3 text-2xl">Quick Links</li>
-            <li className="mb-2"><a className="text-lg" href="">Home</a></li>
-            <li className="mb-2"><a className="text-lg" href="">About me</a></li>
-            <li className="mb-2"><a className="text-lg" href="">Courses</a></li>
-            <li className="mb-2"><a className="text-lg" href="">Contact</a></li>
-            <li className="mb-2"><a className="text-lg" href="">Student Portal</a></li>
+            <li className="mb-2"><Link className="text-lg" to="/">Home</Link></li>
+            <li className="mb-2"><Link className="text-lg" to="About-me">About me</Link></li>
+            <li className="mb-2"><Link className="text-lg" to="Courses">Courses</Link></li>
+            <li className="mb-2"><Link className="text-lg" to="Contact">Contact</Link></li>
+            <li className="mb-2"><Link className="text-lg" to="Portal">Student Portal</Link></li>
           </ul>
           <ul className="flex items-center my-4 gap-3 text-center justify-center">
             <li className="">
