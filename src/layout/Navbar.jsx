@@ -41,7 +41,7 @@ const Navbar = () => {
               <NavLink className="links" to="/">Home</NavLink>
             </li>
             <li className="nav_link">
-              <NavLink className="links" to="/a">About me</NavLink>
+              <NavLink className="links" to="About-me">About me</NavLink>
             </li>
             <li className="nav_link">
               <NavLink className="links" to="Courses">Courses</NavLink>
@@ -61,7 +61,7 @@ const Navbar = () => {
               <NavLink onClick={handleNavToggle} className="links" to="/">Home</NavLink>
             </li>
             <li className="nav_link">
-              <NavLink onClick={handleNavToggle} className="links" to="/a">About me</NavLink>
+              <NavLink onClick={handleNavToggle} className="links" to="About-me">About me</NavLink>
             </li>
             <li className="nav_link">
               <NavLink onClick={handleNavToggle} className="links" to="Courses">Courses</NavLink>
