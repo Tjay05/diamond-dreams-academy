@@ -3,6 +3,7 @@ import lady from "../../assets/image/lady-laptop.jpeg";
 import apprentice from "../../assets/image/apprenticeship.jpeg";
 import handbag from "../../assets/image/handbag.jpeg";
 import laptop from "../../assets/image/laptop.jpeg";
+import tiger from "../../assets/image/tiger.jpeg";
 import { FaLaptop } from "react-icons/fa";
 import { MdOutlineTopic } from "react-icons/md";
 
@@ -111,11 +112,11 @@ const Home = () => {
         </div>
       </section>
       {/* CEO */}
-      <section className="rule">
-        <img src='' alt="Emma Collins" />
-        <div className="text-black">
-          <h2 className="font-bold my-3 text-3xl font-[rokkitt]">Meet our mentor, Dr Emma Collins.</h2>
-          <p className="my-4 font-[Open_Sans]">
+      <section className="rule my-8 md:flex justify-between">
+        <img className=" rounded-2xl md:w-[30%]" src={tiger} alt="Emma Collins" />
+        <div className="text-black md:w-[65%]">
+          <h2 className="font-bold my-3 text-3xl font-[rokkitt] md:text-4xl">Meet our mentor, Dr Emma Collins.</h2>
+          <p className="my-4 font-[Open_Sans] md:text-lg">
             Dr Emma Collins a seasoned event management professional with numerous years of planning and executing high-profile events on the Plateau and environs. With a passion for sharing knowledge and inspiring others, she bring a wealth of expertise and enthusiasm to our academy. Her dedication to mentoring the next generation of event planners is unparalleled and we're thrilled to have her on our team.
           </p>
         </div>
