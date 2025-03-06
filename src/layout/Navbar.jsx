@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
+import { NavLink } from "react-router-dom";
+
 import Logo from "../assets/icon/light-logo.svg";
 import Hamburger from "../assets/icon/nav-icon.svg";
 
@@ -36,19 +38,19 @@ const Navbar = () => {
           {/* Desktop Nav */}
           <ul className="hidden text-white items-center justify-between font-[Open_Sans] w-1/2 py-2 md:flex lg:text-lg xl:text-xl">
             <li className="nav_link">
-              <a className="links" href="/">Home</a>
+              <NavLink className="links" to="/">Home</NavLink>
             </li>
             <li className="nav_link">
-              <a className="links" href="/a">About me</a>
+              <NavLink className="links" to="/a">About me</NavLink>
             </li>
             <li className="nav_link">
-              <a className="links" href="/b">Courses</a>
+              <NavLink className="links" to="Courses">Courses</NavLink>
             </li>
             <li className="nav_link">
-              <a className="links" href="/v">Contact</a>
+              <NavLink className="links" to="Contact">Contact</NavLink>
             </li>
             <li className="nav_link">
-              <a className="links" href="/g">Student Portal</a>
+              <NavLink className="links" to="/g">Student Portal</NavLink>
             </li>
           </ul>
         </div>
@@ -56,19 +58,19 @@ const Navbar = () => {
         {isMobile && (
           <ul className={`${toggleNav ? 'opacity-100 translate-y-.5' : 'opacity-0 translate-y-full'} transition-all duration-300 shadow-md ease-in-out absolute top-13 w-full bg-inherit py-2 border-black border-t flex flex-col justify-center text-white items-center font-[Open_Sans] ${toggleNav ? 'z-99' : ''}`} >
             <li className="nav_link">
-              <a className="links" href="/">Home</a>
+              <NavLink className="links" to="/">Home</NavLink>
             </li>
             <li className="nav_link">
-              <a className="links" href="/a">About me</a>
+              <NavLink className="links" to="/a">About me</NavLink>
             </li>
             <li className="nav_link">
-              <a className="links" href="/b">Courses</a>
+              <NavLink className="links" to="Courses">Courses</NavLink>
             </li>
             <li className="nav_link">
-              <a className="links" href="/v">Contact</a>
+              <NavLink className="links" to="Contact">Contact</NavLink>
             </li>
             <li className="nav_link">
-              <a className="links" href="/g">Student Portal</a>
+              <NavLink className="links" to="/g">Student Portal</NavLink>
             </li>
           </ul>
         )}
