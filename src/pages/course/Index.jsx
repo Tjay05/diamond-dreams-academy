@@ -3,7 +3,7 @@ import apprentice from "../../assets/image/apprenticeship.jpeg";
 const Courses = () => {
   return (
     <div className="rule my-6 md:grid grid-cols-3 gap-6">
-      <div className="border-2 w-full rounded-md my-5">
+      <div className="border-2 w-full border-gray-100 rounded-md my-5">
         <img className="my-1 mx-auto rounded-t-md w-[98%] md:w-[99%] " src={apprentice} alt="" />
         <div className="rule">
           <h3 className="text-center font-[rokkitt] text-[#5c0002] font-medium text-xl my-2 uppercase">The Foundations of Elegance</h3>
@@ -14,7 +14,7 @@ const Courses = () => {
           <a href="" className="bg-[#5c0002] py-2 px-5 text-white font-[Open_sans] text-sm rounded-md">Register</a>
         </div>
       </div>
-      <div className="border-2 w-full rounded-md my-5">
+      <div className="border-2 w-full border-gray-100 rounded-md my-5">
         <img className="my-1 mx-auto rounded-t-md w-[98%] md:w-[99%] " src={apprentice} alt="" />
         <div className="rule">
           <h3 className="text-center font-[rokkitt] text-[#5c0002] font-medium text-xl my-2 uppercase">The Foundations of Elegance</h3>
