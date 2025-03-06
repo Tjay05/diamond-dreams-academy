@@ -54,7 +54,7 @@ const Navbar = () => {
         </div>
         {/* Mobile DropDown Nav */}
         {isMobile && (
-          <ul className={`${toggleNav ? 'opacity-100 translate-y-.5' : 'opacity-0 translate-y-full'} transition-all duration-300 shadow-md ease-in-out absolute top-13 w-full bg-inherit py-2 border-black border-t flex flex-col justify-center text-white items-center font-[Open_Sans] z-99`} >
+          <ul className={`${toggleNav ? 'opacity-100 translate-y-.5' : 'opacity-0 translate-y-full'} transition-all duration-300 shadow-md ease-in-out absolute top-13 w-full bg-inherit py-2 border-black border-t flex flex-col justify-center text-white items-center font-[Open_Sans] ${toggleNav ? 'z-99' : ''}`} >
             <li className="nav_link">
               <a className="links" href="/">Home</a>
             </li>
