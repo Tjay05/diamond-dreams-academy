@@ -24,12 +24,12 @@ const Home = () => {
         <form className="font-[Open_Sans] my-4">
           <div className="md:flex justify-between">
             <input
-              className="input_field"
+              className="border border-[#5c0002] text-sm text-black p-2 rounded-sm w-full mb-3 md:w-[49%]"
               type="text"
               placeholder="Name"
             />
             <input
-              className="input_field"
+              className="border border-[#5c0002] text-sm text-black p-2 rounded-sm w-full mb-3 md:w-[49%]"
               type="email"
               placeholder="Email"
             />
