@@ -16,7 +16,7 @@ const Home = () => {
       >
         <div className="absolute inset-0 opacity-70 bg-linear-105 from-black to-white"></div>
         <div className="relative z-1 flex flex-col items-center justify-center rule py-4">
-          <h1 className="uppercase text-white text-center font-extrabold text-4xl font-[rokkitt] pt-6">Diamonddreams Academy</h1>
+          <h1 className="uppercase text-white text-center font-extrabold text-4xl font-[rokkitt] pt-6">Diamonddreams</h1>
           <button className="rounded uppercase text-center w-full font-bold font-[Open_Sans] text-lg text-[#5c0002] p-2 my-6 bg-white hover:cursor-pointer md:w-1/4">Courses</button>
         </div>
       </header>
@@ -128,14 +128,14 @@ const Home = () => {
         <div className="grid md:grid-cols-3 gap-4">
           <div className="shadow-lg my-2 text-center rounded-lg p-4">
             <p className="italic font-[Open_Sans] my-2">
-              I'm forever grateful for the experience I had at Diamonddreams Academy. The event management course was comprehensive, enagaging and perfectly balanced between theory and practicality. The mentorship I recieved from Dr Emma Collins was invaluable and her industry insights helped me navigate the field with confidence.
+              I'm forever grateful for the experience I had at Diamonddreams. The event management course was comprehensive, enagaging and perfectly balanced between theory and practicality. The mentorship I recieved from Dr Emma Collins was invaluable and her industry insights helped me navigate the field with confidence.
             </p>
             <span className="font-bold text-xl font-[rokkitt]">Toppin Poppins</span>
             <p className="font-[Open_Sans] text-sm">Du, Plateau</p>
           </div>
           <div className="shadow-lg my-2 text-center rounded-lg p-4">
             <p className="italic font-[Open_Sans] my-2">
-              I'm forever grateful for the experience I had at Diamonddreams Academy. The event management course was comprehensive, enagaging and perfectly balanced between theory and practicality. The mentorship I recieved from Dr Emma Collins was invaluable and her industry insights helped me navigate the field with confidence.
+              I'm forever grateful for the experience I had at Diamonddreams. The event management course was comprehensive, enagaging and perfectly balanced between theory and practicality. The mentorship I recieved from Dr Emma Collins was invaluable and her industry insights helped me navigate the field with confidence.
             </p>
             <span className="font-bold text-xl font-[rokkitt]">Toppin Poppins</span>
             <p className="font-[Open_Sans] text-sm">Du, Plateau</p>
