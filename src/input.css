@@ -30,5 +30,5 @@
 }
 
 .cta {
-  @apply absolute top-55 z-2 right-[5%] rounded-lg shadow p-6 bg-white
+  @apply absolute top-55 z-2 right-[5%] rounded-lg shadow p-6 bg-white md:w-1/2 md:right-[25%]
 }
