@@ -16,7 +16,7 @@ const Home = () => {
       >
         <div className="absolute inset-0 opacity-70 bg-linear-105 from-black to-white"></div>
         <div className="relative z-1 flex flex-col items-center justify-center rule py-4">
-          <h1 className="uppercase text-white text-center font-extrabold text-4xl font-[rokkitt] pt-6">Diamonddreams</h1>
+          <h1 className="uppercase text-white text-center font-extrabold text-4xl font-[rokkitt] pt-6 lg:text-7xl">Diamonddreams</h1>
           <button className="rounded uppercase text-center w-full font-bold font-[Open_Sans] text-lg text-[#5c0002] p-2 my-6 bg-white hover:cursor-pointer md:w-1/4">Courses</button>
         </div>
       </header>
