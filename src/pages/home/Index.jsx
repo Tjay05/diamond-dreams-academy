@@ -57,7 +57,7 @@ const Home = () => {
         <div className="relative z-1 flex flex-col items-center justify-center text-white rule py-4">
           <h2 className="font-bold text-3xl my-4 text-center font-[rokkitt] md:text-5xl">Our Courses</h2>
           <p className="text-center text-lg font-[Open_sans] my-2 md:text-xl">
-            Unlock your potential in the event managemnt industry with our comprehensive courses. Designed to equip you with the skills and knowledge needed to succeed, our programs cover a wide range of topics, from wedding planning to corporate events.<br/>
+            Unlock your potential in the event managemnt industry with our comprehensive courses. Made to equip you with the skills and knowledge needed to succeed, our programs cover a wide range of topics, from wedding planning to corporate events.<br/>
             Our courses are led by experienced professionals and offer a unique blend of theoretical and practical learning. Whether you're just starting out or looking to enhance your existing skills, we have a course that's right for you. <br/>
             Explore our range of courses below and discover how we can help you achieve your goals in event management
           </p>
