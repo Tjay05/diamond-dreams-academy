@@ -5,6 +5,7 @@ import {
   RouterProvider
 } from 'react-router-dom';
 
+// Page Imports
 import AppLayout from './layout/Index';
 import AboutMe from './pages/about/Index';
 import Contact from "./pages/contact/Index"
